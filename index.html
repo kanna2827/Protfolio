@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Kannan - Aspiring Machine Learning Engineer & Data Science Graduate. Portfolio showcasing projects, training, and skills in ML, AI, Python, and SQL.">
+    <meta name="keywords"
+        content="Kannan, Data Science, Machine Learning, Portfolio, Python, SQL, Elysium Academy, B.Voc Data Science, ML Engineer, Madurai">
+    <meta name="author" content="Kannan">
+
+    <!-- Open Graph / Social Meta Tags -->
+    <meta property="og:title" content="Kannan | Aspiring Machine Learning Engineer">
+    <meta property="og:description"
+        content="Data Science Graduate with a strong foundation in Python, SQL, Statistics, and Machine Learning. View my projects, skills, and certifications.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kannan2728.github.io"> <!-- Placeholder URL -->
+
+    <title>Kannan | Aspiring Machine Learning Engineer & Data Science Graduate</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- AOS CSS CDN (Scroll Animations) -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css?v=1.4" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 1. Preloader Screen -->
+    <div id="preloader" aria-hidden="true">
+        <div class="loader" role="status"></div>
+    </div>
+
+    <!-- 2. Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div id="scroll-progress" class="scroll-progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+
+    <!-- 3. Sticky Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top py-3" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand text-gradient" href="#home" id="nav-brand">KANNAN</a>
+
+            <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#internships">Internships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#training">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- Theme Toggle button and Resume button -->
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                            <i class="bi bi-sun-fill"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a href="assets/resume_placeholder.txt" download="Kannan_Resume.txt" class="btn btn-gradient"
+                            id="download-resume-nav">
+                            <i class="bi bi-download me-2"></i>Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 4. Hero Section -->
+    <header id="home" class="hero-section position-relative overflow-hidden">
+        <!-- Aurora Mesh Gradient Backdrop -->
+        <div class="aurora-mesh-container">
+            <div class="aurora-blob aurora-primary"></div>
+            <div class="aurora-blob aurora-secondary"></div>
+            <div class="aurora-blob aurora-accent"></div>
+        </div>
+
+        <div class="container position-relative z-1">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-7 text-center text-md-start" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="glass-card hero-glass-card p-4 p-md-5">
+                        <h1 class="display-3 fw-bold mb-2 hero-title">Hi,<br>I'm <span
+                                class="text-gradient">Kannan</span></h1>
+                        <h2 class="h4 text-uppercase tracking-wider fw-semibold text-muted mb-3 hero-subtitle">Aspiring
+                            Machine Learning
+                            Engineer</h2>
+
+                        <div class="typing-container mb-4 hero-typing">
+                            <span id="typing-effect" class="typing-text"></span><span
+                                class="typing-cursor text-primary h4">|</span>
+                        </div>
+
+                        <div
+                            class="hero-buttons d-flex flex-wrap justify-content-center justify-content-md-start gap-3 mb-4 hero-btn-container">
+                            <a href="assets/resume_placeholder.txt" download="Kannan_Resume.txt"
+                                class="btn btn-gradient btn-lg px-4" id="btn-hero-resume">
+                                <i class="bi bi-file-earmark-pdf me-2"></i>Download Resume
+                            </a>
+                            <a href="#projects" class="btn btn-outline-custom btn-lg px-4" id="btn-hero-projects">
+                                View Projects
+                            </a>
+                        </div>
+
+                        <div class="social-links d-flex justify-content-center justify-content-md-start hero-socials">
+                            <a href="https://www.linkedin.com/in/kannan2728" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn Profile" id="social-linkedin">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/kannan2728" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub Profile" id="social-github">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="mailto:kanna.official2728@gmail.com" aria-label="Email Me" id="social-email">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-5 mb-md-0" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-img-container">
+                        <div class="hero-img-wrapper">
+                            <img src="./images/profile.png" alt="Kannan Portrait" id="hero-profile-pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 5. About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-5 mb-5 mb-lg-0 text-center" data-aos="fade-right">
+                    <div class="about-img-wrapper mx-auto">
+                        <img src="./images/profile.png" alt="Kannan Professional Picture" id="about-profile-pic">
+                    </div>
+                </div>
+
+                <div class="col-lg-7" data-aos="fade-left">
+                    <h3 class="fw-bold mb-3">Aspiring AI & Machine Learning Specialist</h3>
+                    <p class="lead mb-4 text-muted">
+                        I am a Data Science graduate with hands-on experience in
+                        developing Machine Learning and Artificial Intelligence projects using Python, SQL(Basic),
+                        Machine
+                        Learning, Deep Learning, NLP, and Data Analysis. Having successfully completed professional Data
+                        Science training, I have built multiple real-world projects that demonstrate my practical
+                        problem-solving abilities and technical expertise. I am passionate about leveraging AI and
+                        Machine Learning to develop intelligent, scalable, and impactful solutions while continuously
+                        enhancing my skills.
+                    </p>
+
+                    <!-- Core Highlights Info Cards -->
+                    <div class="row g-4 mt-2">
+                        <div class="col-md-4">
+                            <div class="glass-card about-highlight-card interactive-lighting-card">
+                                <i class="bi bi-mortarboard-fill about-icon"></i>
+                                <h5>Education</h5>
+                                <p>B.Voc Data Science</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="glass-card about-highlight-card interactive-lighting-card">
+                                <i class="bi bi-briefcase-fill about-icon"></i>
+                                <h5>Internships</h5>
+                                <p>4 Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="glass-card about-highlight-card interactive-lighting-card">
+                                <i class="bi bi-code-slash about-icon"></i>
+                                <h5>Projects</h5>
+                                <p>AI Voice Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Education Timeline Section -->
+    <section id="education" class="section-padding bg-black bg-opacity-10">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Education</h2>
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline">
+
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2022 – 2025</span>
+                            <div class="glass-card timeline-content interactive-lighting-card">
+                                <h4>Bachelor of Vocation (B.Voc) in Data Science</h4>
+                                <h5>The American College</h5>
+                                <p class="text-muted mt-2 mb-0">Acquired core principles of data gathering, data
+                                    warehousing, analysis, and applied statistical theory.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 2 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2020 – 2022</span>
+                            <div class="glass-card timeline-content interactive-lighting-card">
+                                <h4>Higher Secondary Certificate (HSC)</h4>
+                                <h5>Arul Malar Matric Higher Secondary School</h5>
+                                <p class="text-muted mt-2 mb-0">Graduated with a focus on science and mathematics,
+                                    laying the analytical groundwork for further engineering studies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 3 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2020</span>
+                            <div class="glass-card timeline-content interactive-lighting-card">
+                                <h4>Secondary School Leaving Certificate (SSLC)</h4>
+                                <h5>Ambika Matric Higher Secondary School</h5>
+                                <p class="text-muted mt-2 mb-0">Completed foundational general secondary school
+                                    education with high excellence.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Technical Skills Section -->
+    <section id="skills" class="section-padding position-relative overflow-hidden">
+        <!-- Accent decorative glows -->
+        <div class="skills-bg-glow-1"></div>
+        <div class="skills-bg-glow-2"></div>
+
+        <div class="container position-relative z-1">
+            <h2 class="text-center section-title" data-aos="fade-up">Technical Skills</h2>
+
+            <div class="row g-4 mt-5">
+                <!-- 1. Programming Card -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-1">
+                                <i class="bi bi-terminal"></i>
+                            </div>
+                            <h4 class="bento-card-title">Programming</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge"><i class="bi bi-code-square me-2"></i>Python</span>
+                                <span class="skill-badge"><i class="bi bi-database me-2"></i>SQL</span>
+                                <span class="skill-badge"><i class="bi bi-file-earmark-excel me-2"></i>Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Libraries Card -->
+                <div class="col-lg-8 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-2">
+                                <i class="bi bi-journal-code"></i>
+                            </div>
+                            <h4 class="bento-card-title">Libraries</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge"><i class="bi bi-table me-2"></i>Pandas</span>
+                                <span class="skill-badge"><i class="bi bi-grid-3x3-gap me-2"></i>NumPy</span>
+                                <span class="skill-badge"><i class="bi bi-cpu me-2"></i>Scikit-learn</span>
+                                <span class="skill-badge"><i class="bi bi-bar-chart me-2"></i>Matplotlib</span>
+                                <span class="skill-badge"><i class="bi bi-graph-up me-2"></i>Seaborn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Machine Learning Card -->
+                <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-3">
+                                <i class="bi bi-robot"></i>
+                            </div>
+                            <h4 class="bento-card-title">Machine Learning</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge"><i class="bi bi-search me-2"></i>EDA</span>
+                                <span class="skill-badge"><i class="bi bi-calculator me-2"></i>Statistics</span>
+                                <span class="skill-badge"><i class="bi bi-cpu-fill me-2"></i>Machine Learning</span>
+                                <span class="skill-badge"><i class="bi bi-wrench me-2"></i>Feature Engineering</span>
+                                <span class="skill-badge"><i class="bi bi-clipboard-check me-2"></i>Model
+                                    Evaluation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Tools Card -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-4">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h4 class="bento-card-title">Tools</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge"><i class="bi bi-git me-2"></i>Git</span>
+                                <span class="skill-badge"><i class="bi bi-github me-2"></i>GitHub</span>
+                                <span class="skill-badge"><i class="bi bi-code-slash me-2"></i>VS Code</span>
+                                <span class="skill-badge"><i class="bi bi-journal-text me-2"></i>Jupyter Notebook</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Database Card -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-5">
+                                <i class="bi bi-server"></i>
+                            </div>
+                            <h4 class="bento-card-title">Database</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge w-100 justify-content-center"><i
+                                        class="bi bi-database-fill-gear me-2"></i>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Design Card -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="350">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-6">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h4 class="bento-card-title">Design</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge w-100 justify-content-center"><i
+                                        class="bi bi-figma me-2"></i>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Soft Skills Card -->
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bento-card interactive-lighting-card">
+                        <div class="bento-card-header">
+                            <div class="bento-card-icon float-icon-7">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h4 class="bento-card-title">Soft Skills</h4>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="d-flex flex-wrap">
+                                <span class="skill-badge"><i class="bi bi-lightbulb me-2"></i>Analytical Thinking</span>
+                                <span class="skill-badge"><i class="bi bi-puzzle me-2"></i>Problem Solving</span>
+                                <span class="skill-badge"><i class="bi bi-chat-quote me-2"></i>Communication</span>
+                                <span class="skill-badge"><i class="bi bi-people-fill me-2"></i>Teamwork</span>
+                                <span class="skill-badge"><i class="bi bi-arrow-repeat me-2"></i>Adaptability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Projects Section -->
+    <section id="projects" class="section-padding bg-black bg-opacity-10">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Projects</h2>
+            <div class="row justify-content-center mt-5">
+
+                <!-- Project 1 -->
+                <div class="col-md-8 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card project-card interactive-lighting-card">
+                        <div class="project-content">
+                            <div>
+                                <h3 class="project-title text-gradient">AI Voice Assistant using Python</h3>
+                                <p class="project-desc">Built a smart voice assistant using Python, Speech Recognition,
+                                    and Text-to-Speech library integrations to facilitate hands-free control and local
+                                    script automation.</p>
+
+                                <h5 class="h6 fw-semibold text-uppercase tracking-wider mb-2">Key Features</h5>
+                                <div class="project-features">
+                                    <span class="feature-badge">Voice Commands</span>
+                                    <span class="feature-badge">Open Applications</span>
+                                    <span class="feature-badge">Web Search</span>
+                                    <span class="feature-badge">Automation</span>
+                                </div>
+                            </div>
+
+                            <div class="project-btns">
+                                <a href="https://github.com/kannan2728" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-custom" id="project-github-1">
+                                    <i class="bi bi-github me-2"></i>GitHub
+                                </a>
+                                <a href="#" onclick="alert('Live Demo is a placeholder link'); return false;"
+                                    class="btn btn-gradient" id="project-demo-1">
+                                    <i class="bi bi-box-arrow-up-right me-2"></i>Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Internships Section -->
+    <section id="internships" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Internships</h2>
+            <div class="row g-4 mt-5">
+
+                <!-- Internship 1: Android Development -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card intern-card interactive-lighting-card">
+                        <div class="intern-icon"><i class="bi bi-android2"></i></div>
+                        <h4>Android Development</h4>
+                        <p>Developed core skills in building Android-native layouts and application elements under
+                            expert guidance, focusing on responsive UI creation.</p>
+                    </div>
+                </div>
+
+                <!-- Internship 2: Web Development -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card intern-card interactive-lighting-card">
+                        <div class="intern-icon"><i class="bi bi-globe"></i></div>
+                        <h4>Web Development</h4>
+                        <p>Contributed to designing responsive HTML5 interfaces, styled modern pages with CSS/Bootstrap,
+                            and worked with client-side Javascript interactions.</p>
+                    </div>
+                </div>
+
+                <!-- Internship 3: UI/UX Design -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card intern-card interactive-lighting-card">
+                        <div class="intern-icon"><i class="bi bi-vector-pen"></i></div>
+                        <h4>UI/UX Design</h4>
+                        <p>Focused on layout wireframing, creating responsive vector mockups, designing user flows, and
+                            conducting usability assessments using Figma.</p>
+                    </div>
+                </div>
+
+                <!-- Internship 4: Application Development -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card intern-card interactive-lighting-card">
+                        <div class="intern-icon"><i class="bi bi-cpu"></i></div>
+                        <h4>Application Development</h4>
+                        <p>Learned standard app architecture methodologies, integration practices, and code testing
+                            logic across project developments.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Training Section -->
+    <section id="training" class="section-padding bg-black bg-opacity-10">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Professional Training</h2>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card p-5 text-center">
+                        <i class="bi bi-award-fill text-gradient display-4 mb-3"></i>
+                        <h3 class="fw-bold mb-2">Data Science Professional Training</h3>
+                        <h4 class="h5 text-muted mb-4">Elysium Academy</h4>
+
+                        <p class="text-muted mb-4 text-start text-md-center">
+                            Enrolled in a comprehensive training curriculum designed to bridge the gap between academic
+                            theory and practical applications. Rigorously trained in core data sciences, predictive
+                            algorithms, and statistical computational frameworks.
+                        </p>
+
+                        <div class="row g-3 justify-content-center">
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Python</span></div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">SQL</span></div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Statistics</span></div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">EDA</span></div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Machine Learning</span>
+                            </div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Artificial
+                                    Intelligence</span></div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Feature Engineering</span>
+                            </div>
+                            <div class="col-auto"><span class="feature-badge px-3 py-2 fs-6">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Certificates Section -->
+    <section id="certificates" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Certificates</h2>
+            <div class="row g-4 mt-5">
+
+                <!-- Cert 1 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card text-center p-4 interactive-lighting-card">
+                        <i class="bi bi-file-earmark-check-fill text-primary fs-1 mb-3"></i>
+                        <h5 class="fw-semibold">Android Development</h5>
+                        <p class="text-muted small mb-0 mt-2">Professional Training Certificate</p>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card text-center p-4 interactive-lighting-card">
+                        <i class="bi bi-file-earmark-check-fill text-primary fs-1 mb-3"></i>
+                        <h5 class="fw-semibold">Web Development</h5>
+                        <p class="text-muted small mb-0 mt-2">Professional Training Certificate</p>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card text-center p-4 interactive-lighting-card">
+                        <i class="bi bi-file-earmark-check-fill text-primary fs-1 mb-3"></i>
+                        <h5 class="fw-semibold">UI/UX Design</h5>
+                        <p class="text-muted small mb-0 mt-2">Professional Training Certificate</p>
+                    </div>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card text-center p-4 interactive-lighting-card">
+                        <i class="bi bi-file-earmark-check-fill text-primary fs-1 mb-3"></i>
+                        <h5 class="fw-semibold">Application Development</h5>
+                        <p class="text-muted small mb-0 mt-2">Professional Training Certificate</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Achievement Counter Section -->
+    <section id="achievements" class="section-padding counter-section">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Stat 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="counter-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="counter-num"><span class="counter-value" data-target="1">0</span>+</div>
+                        <div class="counter-label">Projects</div>
+                    </div>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="counter-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="counter-num"><span class="counter-value" data-target="4">0</span></div>
+                        <div class="counter-label">Internships</div>
+                    </div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="counter-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="counter-num"><span class="counter-value" data-target="10">0</span>+</div>
+                        <div class="counter-label">Technical Skills</div>
+                    </div>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="counter-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="counter-num"><span class="counter-value" data-target="300">0</span>+</div>
+                        <div class="counter-label">Training Hours</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Contact Me</h2>
+
+            <div class="row mt-5 g-5">
+
+                <!-- Contact Info Column -->
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="fw-bold mb-4">Get In Touch</h3>
+                    <p class="text-muted mb-5">Have a question or want to work together? Feel free to reach out to me
+                        directly or use the contact form.</p>
+
+                    <div class="contact-info-list">
+                        <!-- Phone -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon" id="contact-phone-icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Phone</h5>
+                                <p><a href="tel:+919344525060" class="text-muted">+91 9344525060</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon" id="contact-email-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Email</h5>
+                                <p><a href="mailto:kanna.official2728@gmail.com"
+                                        class="text-muted">kanna.official2728@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon" id="contact-loc-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Location</h5>
+                                <p>Madurai, Tamil Nadu</p>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon" id="contact-linkedin-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>LinkedIn</h5>
+                                <p><a href="https://www.linkedin.com/in/kannan2728" target="_blank"
+                                        rel="noopener noreferrer" class="text-muted">linkedin.com/in/kannan2728</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Column -->
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="glass-card p-4 p-md-5 interactive-lighting-card">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <!-- Name -->
+                                <div class="col-md-6">
+                                    <label for="form-name" class="form-label fw-medium">Name</label>
+                                    <input type="text" class="form-control form-control-custom" id="form-name"
+                                        placeholder="Your Name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="col-md-6">
+                                    <label for="form-email" class="form-label fw-medium">Email</label>
+                                    <input type="email" class="form-control form-control-custom" id="form-email"
+                                        placeholder="Your Email" required>
+                                    <div class="invalid-feedback">Please provide a valid email address.</div>
+                                </div>
+
+                                <!-- Subject -->
+                                <div class="col-12">
+                                    <label for="form-subject" class="form-label fw-medium">Subject</label>
+                                    <input type="text" class="form-control form-control-custom" id="form-subject"
+                                        placeholder="Subject Topic" required>
+                                    <div class="invalid-feedback">Please provide a subject.</div>
+                                </div>
+
+                                <!-- Message -->
+                                <div class="col-12">
+                                    <label for="form-message" class="form-label fw-medium">Message</label>
+                                    <textarea class="form-control form-control-custom" id="form-message" rows="5"
+                                        placeholder="Your message here..." required></textarea>
+                                    <div class="invalid-feedback">Please write a message.</div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12 text-end">
+                                    <button type="submit" class="btn btn-gradient btn-lg px-4" id="form-submit-btn">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4 justify-content-between">
+                <div class="col-md-5">
+                    <a class="brand-logo text-gradient d-inline-block mb-3" href="#home" id="footer-logo">KANNAN</a>
+                    <p class="mb-4">Aspiring Machine Learning Engineer and Data Science Graduate. Dedicated to solving
+                        analytical challenges and developing functional artificial intelligence frameworks.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kannan2728" target="_blank" rel="noopener noreferrer"
+                            id="footer-social-linkedin"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/kannan2728" target="_blank" rel="noopener noreferrer"
+                            id="footer-social-github"><i class="bi bi-github"></i></a>
+                        <a href="mailto:kanna.official2728@gmail.com" id="footer-social-email"><i
+                                class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <h5 class="footer-title">Info Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#internships">Internships</a></li>
+                        <li><a href="#training">Training Modules</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright-section">
+                <p class="mb-0">&copy; 2026 Kannan. All Rights Reserved. | Created with HTML5, CSS3, & Bootstrap 5.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 15. Back to Top Button -->
+    <a href="#" id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- 16. Custom Bootstrap Toast for Form Submission -->
+    <div class="toast-container-custom">
+        <div id="submitToast" class="toast toast-custom hide" role="alert" aria-live="assertive" aria-atomic="true"
+            data-bs-delay="4000">
+            <div class="toast-header">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <strong class="me-auto">Form Submitted</strong>
+                <small class="text-muted">Just now</small>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Thank you! Your message was submitted successfully.
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle JS CDN (Contains Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Init AOS -->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+    </script>
+
+    <!-- Custom Vanilla JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

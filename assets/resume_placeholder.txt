@@ -1,0 +1,52 @@
+KANNAN - Aspiring Machine Learning Engineer & Data Science Graduate
+Contact: +91 9344525060 | kanna.official2728@gmail.com
+Location: Madurai, Tamil Nadu
+LinkedIn: https://www.linkedin.com/in/kannan2728
+GitHub: https://github.com/kannan2728 (Placeholder)
+
+SUMMARY
+Data Science Graduate with a strong foundation in Python, SQL, Statistics, Machine Learning, and Data Analysis. Currently pursuing advanced Data Science Training at Elysium Academy. Passionate about solving real-world business problems using Artificial Intelligence and Machine Learning techniques.
+
+EDUCATION
+- Bachelor of Vocation (B.Voc) in Data Science
+  The American College, Madurai (2022 – 2025)
+- Higher Secondary Certificate (HSC)
+  Arul Malar Matric Higher Secondary School (2020 – 2022)
+- Secondary School Leaving Certificate (SSLC)
+  Ambika Matric Higher Secondary School (2020)
+
+TECHNICAL SKILLS
+- Programming: Python, SQL
+- Libraries & Frameworks: Pandas, NumPy, Scikit-learn
+- Data Science Foundations: Exploratory Data Analysis (EDA), Statistics, Machine Learning (Basics)
+- Data Visualization: Microsoft Excel, Matplotlib, Seaborn
+- Developer Tools: Git, GitHub
+- Design: UI/UX Design (Figma)
+
+ACADEMIC TRAINING
+- Data Science Training, Elysium Academy
+  Key Modules: Python, SQL, Statistics, EDA, Machine Learning, Artificial Intelligence, Feature Engineering, Data Visualization
+
+INTERNSHIPS
+- Android Development Internship
+- Web Development Internship
+- UI/UX Design Internship
+- Application Development Internship
+
+PROJECTS
+- AI Voice Assistant using Python
+  - Description: Built a voice assistant using Python, Speech Recognition, and Text-to-Speech libraries.
+  - Key Features: Voice commands parsing, opening system applications, performing web searches, and routine task automation.
+
+SOFT SKILLS
+- Analytical Thinking
+- Problem Solving
+- Communication
+- Teamwork
+- Adaptability
+
+ACHIEVEMENTS
+- Projects Completed: 1+
+- Internships: 4
+- Technical Skills: 10+
+- Training Hours: 300+
